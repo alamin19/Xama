@@ -7,11 +7,12 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace LoginApp
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("DeliveredVC")]
+    partial class DeliveredVC
     {
         void ReleaseDesignerOutlets ()
         {

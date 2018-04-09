@@ -100,9 +100,33 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="AddNewDeliveryVC_.cs" />
+    <Compile Include="AddNewDeliveryVC_.designer.cs">
+      <DependentUpon>AddNewDeliveryVC_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginVC.cs" />
+    <Compile Include="LoginVC.designer.cs">
+      <DependentUpon>LoginVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignupVC.cs" />
+    <Compile Include="SignupVC.designer.cs">
+      <DependentUpon>SignupVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTabBarVC.cs" />
+    <Compile Include="MainTabBarVC.designer.cs">
+      <DependentUpon>MainTabBarVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveredVC.cs" />
+    <Compile Include="DeliveredVC.designer.cs">
+      <DependentUpon>DeliveredVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryVC.cs" />
+    <Compile Include="DeliveryVC.designer.cs">
+      <DependentUpon>DeliveryVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileVC.cs" />
+    <Compile Include="ProfileVC.designer.cs">
+      <DependentUpon>ProfileVC.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
